@@ -1,0 +1,10 @@
+.itemContainer {
+  background-color: rgb(11, 112, 53);
+  height: 4rem;
+  padding: 1rem 1rem 0 2rem;
+  width: 14rem;
+}
+
+.itemContainer > div > div {
+  color: white;
+}

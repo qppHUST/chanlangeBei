@@ -1,0 +1,239 @@
+html body{
+  background-color: #ece5e5;
+}
+
+.information-left {
+  float: left;
+}
+
+.information-right {
+  float: right;
+}
+
+.information-container {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 1rem;
+  padding-top: 1rem;
+}
+
+.information-container > span > a {
+  color: blue;
+}
+
+.information-container > span > img {
+  width: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.header-container {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: white;
+  display: flex;
+}
+
+.header-container > img {
+  width: 30rem;
+  float: left;
+}
+
+.searchcontainer {
+  width: 50rem;
+  margin: 1rem 0 0 2rem;
+}
+
+.comeback-container {
+  margin: 2rem 0 0 1rem;
+  color: blue;
+}
+
+.bannerContainer {
+  width: 70%;
+  margin: 0 15% 0 15%;
+}
+
+#specialText {
+  background-color: rgb(236, 165, 58);
+  width: 15rem;
+  text-align: center;
+}
+
+#specialText1 {
+  text-decoration: none;
+  color: white;
+}
+
+.bannerHeaderContainer{
+  display: flex;
+}
+
+.bannerHeaderContainer > div {
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: large;
+  background-color: rgb(79, 63, 255);
+  width: 5.8rem;
+}
+
+.bannerHeaderContainer > div:hover {
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: large;
+  width: 5.8rem;
+  cursor: pointer;
+  background-color: blue;
+}
+
+.asideContainer {
+  width: 15rem;
+}
+
+.CarouselContainer {
+  width: 70rem;
+  margin: 0 0 0 3rem;
+}
+
+.bannerFooterContainer {
+  display: flex;
+}
+
+.bodyClass {
+  width: 70%;
+  height: 2rem;
+  margin: 1rem 15% 0 15%;
+  padding: 1rem 0 0 1rem;
+  background-color: aquamarine;
+  box-shadow: 3px 3px 5px #888888;
+  border-radius: 5px/5px;
+}
+
+.lianhecaogou{
+  display: flex;
+  margin-top: 30px;
+}
+
+.wuliuyunshu{
+  display: flex;
+  margin-top: 30px;
+}
+
+.xiangmurongzi{
+  display: flex;
+  margin-top: 30px;
+}
+
+.chengpinxiaoshou{
+  display: flex;
+  margin-top: 30px;
+}
+
+.hangyeyanjiu{
+  display: flex;
+  margin-top: 30px;
+}
+
+.hezuopingtai{
+  display: flex;
+  margin-top: 30px;
+}
+
+.kejiqianyan{
+  display: flex;
+  margin-top: 30px;
+}
+
+.selectContainer{
+  margin-top: 15px;
+}
+
+.selectContainer > *{
+  margin-left: 20px;
+}
+
+.left{
+  width: 10vw;
+  padding: 80px 70px 0 70px;
+  font-size: 60px;
+  background-color: rgb(127, 143, 237);
+}
+
+.right{
+  width: 85vw;
+  margin-left: 30px;
+}
+
+.right >div{
+  margin: 10px 0 0 0px;
+}
+
+.catogory{
+  padding: 10px;
+}
+
+.catogory >div{
+  margin: 10px 10px 0 10px;
+}
+
+@media screen and (max-width: 2000px) {
+  .header-container > img {
+    width: 21rem;
+    float: left;
+  }
+
+  .searchcontainer {
+    width: 30rem;
+    float: left;
+  }
+
+  .comeback-container {
+    float: right;
+    margin: 1.6rem 0 0 1rem;
+    color: blue;
+  }
+
+  li{
+    margin-top: 5px;
+  }
+
+  .bannerHeaderContainer > div {
+    float: left;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: small;
+    background-color: rgb(132, 210, 140);
+    width: 4.5rem;
+    height: 1rem;
+  }
+
+  .bannerHeaderContainer > div:hover {
+    float: left;
+    padding: 1rem 1rem 1rem 1remrem;
+    font-size: small;
+    width: 4.5rem;
+    cursor: pointer;
+    background-color: rgb(47, 161, 125);
+  }
+
+  #specialText {
+    width: 5rem;
+  }
+
+  #specialText1 {
+    color: white;
+    font-size: 0.5rem;
+    font-size: small;
+    text-decoration: none;
+  }
+
+  .asideContainer {
+    width: 15rem;
+    float: left;
+  }
+
+  .CarouselContainer {
+    width: 50.5rem;
+    float: left;
+    margin: 0 0 0 0;
+  }
+}
