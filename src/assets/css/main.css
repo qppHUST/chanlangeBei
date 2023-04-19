@@ -34,6 +34,7 @@ html body{
   margin-right: 15%;
   background-color: white;
   display: flex;
+  align-items: center;
 }
 
 .header-container > img {
@@ -43,11 +44,10 @@ html body{
 
 .searchcontainer {
   width: 50rem;
-  margin: 1rem 0 0 2rem;
+  margin-left: 4rem;
 }
 
 .comeback-container {
-  margin: 2rem 0 0 1rem;
   color: blue;
 }
 
@@ -69,34 +69,34 @@ html body{
 
 .bannerHeaderContainer{
   display: flex;
+  width: 100%;
 }
 
 .bannerHeaderContainer > div {
   padding: 1rem 1rem 1rem 1rem;
   font-size: large;
-  background-color: rgb(79, 63, 255);
-  width: 5.8rem;
+  background-color: rgb(172, 215, 142);
+  width: 10%;
 }
 
 .bannerHeaderContainer > div:hover {
   padding: 1rem 1rem 1rem 1rem;
   font-size: large;
-  width: 5.8rem;
   cursor: pointer;
   background-color: blue;
 }
 
 .asideContainer {
-  width: 15rem;
+  width: 20%;
 }
 
 .CarouselContainer {
-  width: 70rem;
-  margin: 0 0 0 3rem;
+  width: 100%;
 }
 
 .bannerFooterContainer {
   display: flex;
+  width: 100%;
 }
 
 .bodyClass {
@@ -145,7 +145,7 @@ html body{
 }
 
 .selectContainer{
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .selectContainer > *{
@@ -153,15 +153,16 @@ html body{
 }
 
 .left{
-  width: 10vw;
+  width: 10%;
   padding: 80px 70px 0 70px;
   font-size: 60px;
-  background-color: rgb(127, 143, 237);
+  background-color: rgb(205, 212, 185);
 }
 
 .right{
   width: 85vw;
   margin-left: 30px;
+  padding: 50px 20px 50px 0;
 }
 
 .right >div{
@@ -169,11 +170,53 @@ html body{
 }
 
 .catogory{
-  padding: 10px;
+  padding: 10px 20px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(217, 222, 211);
+  width: 50vw;
 }
 
 .catogory >div{
-  margin: 10px 10px 0 10px;
+  margin: 20px 10px 0 10px;
+}
+
+.card{
+  background-color: #e3ea8d;
+}
+
+.divider{
+  width: 97%;
+  height: 10px;
+  background-color: rgb(214, 216, 180);
+}
+
+.shenqingtiaojianContainer{
+  background-color: #dad5c1;
+}
+
+table{
+  width: 90%;
+  margin: auto;/*让表格居中显示*/
+  border: black 1px  solid;/*添加边框*/
+  border-spacing: 0px;
+  border-collapse: collapse;/*去掉重合线*/
+}
+
+thead{
+  background-color: #e3ea8d;
+}
+
+tbody{
+  background-color: #dbdeb7;
+}
+
+td{
+  padding: 10px;
+}
+
+li{
+  padding: 6px 0 6px 0;
 }
 
 @media screen and (max-width: 2000px) {
